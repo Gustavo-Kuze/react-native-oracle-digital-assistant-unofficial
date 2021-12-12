@@ -68,9 +68,9 @@ const App: () => Node = () => {
     (async () => {
       try {
         const result = await OracleDigitalAssistant.init(
-          'Tester1',
-          '8a6090cb-c1c6-4c93-a075-f1e5749e0abf',
-          'oda-2497a55ccce743cdb5e930a2c58741f6-da2.data.digitalassistant.oci.oraclecloud.com',
+          'userId',
+          '2h7s92cv-d4c6-ds93-a069-f1l374932aaL',
+          'oda-9928v32csde323asb5o930s1c84751f4-dd4.data.digitalassistant.oci.oraclecloud.com',
         );
 
         OracleDigitalAssistant.setupChatListeners();
@@ -98,7 +98,7 @@ const App: () => Node = () => {
         <Button
           title="Chat"
           onPress={() => {
-            OracleDigitalAssistant.sendMessage('Carrinho');
+            OracleDigitalAssistant.sendMessage('Buy some coffee');
           }}
         />
         <View
