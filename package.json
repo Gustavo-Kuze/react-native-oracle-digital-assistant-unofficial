@@ -1,7 +1,7 @@
 {
   "name": "react-native-oracle-digital-assistant-unofficial",
   "title": "React Native Oracle Digital Assistant Unofficial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An unofficial react-native client for Oracle Digital Assistant",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -16,11 +16,6 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gustavo-Kuze/react-native-oracle-digital-assistant-unofficial.git",
-    "baseUrl": "https://github.com/Gustavo-Kuze/react-native-oracle-digital-assistant-unofficial"
   },
   "keywords": [
     "react-native"

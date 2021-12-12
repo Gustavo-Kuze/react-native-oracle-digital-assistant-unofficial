@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('com.oracle.bots.client.sdk.android.core-21.10.aar'))

@@ -1,8 +1,18 @@
 # react-native-oracle-digital-assistant-unofficial
 
+**IMPORTANT NOTE**: For now, this library only supports Android's client SDK. 
+
+iOS support will come in a future update.
+
 ## Getting started
 
-`$ npm install react-native-oracle-digital-assistant-unofficial --save`
+Install Node dependency
+
+```$ npm install react-native-oracle-digital-assistant-unofficial --save```
+
+or
+
+```$ yarn add react-native-oracle-digital-assistant-unofficial```
 
 ### Mostly automatic installation
 
