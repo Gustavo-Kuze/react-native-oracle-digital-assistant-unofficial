@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["ES2020"],
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "jsx": "react-native",
+
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "outDir": "./lib",
+    
+    "strict": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "node_modules/*",
+    "./node_modules",
+    "./node_modules/*",
+    "./node_modules/@types/node/index.d.ts",
+    "./node_modules/@types/*",
+  ]
+}
