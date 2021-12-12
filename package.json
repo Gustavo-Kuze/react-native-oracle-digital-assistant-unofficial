@@ -17,6 +17,11 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustavo-Kuze/react-native-oracle-digital-assistant-unofficial.git",
+    "baseUrl": "https://github.com/Gustavo-Kuze/react-native-oracle-digital-assistant-unofficial"
+  },
   "keywords": [
     "react-native"
   ],
