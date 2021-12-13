@@ -14,7 +14,7 @@ or
 
 ```$ yarn add react-native-oracle-digital-assistant-unofficial```
 
-### Mostly automatic installation
+### Link dependencies
 
 **For react-native** `<.60`
 
@@ -22,7 +22,42 @@ or
 
 **For react-native** `>=.60`
 
-`No extra steps`
+`Skip`
+
+## Add native SDKs to native projects
+
+### Android
+
+1. Replace the following line in `settings.gradle`:
+
+Replace
+
+```
+include ':app'
+```
+
+with
+
+```
+include ':app', ':com.oracle.bots.client.sdk.android.core-21.10'
+```
+
+2. Import the following dependencies in `android/app/build.gradle`:
+
+```
+implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+implementation 'androidx.preference:preference:1.1.1'
+
+// SDK
+implementation project(':com.oracle.bots.client.sdk.android.core-21.10')
+
+// Core dependencies
+implementation 'androidx.room:room-runtime:2.2.5'
+implementation 'io.socket:socket.io-client:0.8.3'
+implementation 'androidx.core:core:1.3.0'
+```
+
+3. Copy the native module from `node_modules/react-native-oracle-digital-assistant-unofficial/android/com.oracle.bots.client.sdk.android.core-21.10` to your project's **android** directory
 
 ## Usage
 

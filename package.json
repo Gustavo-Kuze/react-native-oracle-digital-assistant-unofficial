@@ -1,7 +1,7 @@
 {
   "name": "react-native-oracle-digital-assistant-unofficial",
   "title": "React Native Oracle Digital Assistant Unofficial",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An unofficial react-native client for Oracle Digital Assistant",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

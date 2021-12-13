@@ -1,7 +1,7 @@
 import { NativeModules } from 'react-native';
 
 type OracleDigitalAssistantTypes = {
-  init: (userId: string, channelId: number, chatServer: number,) => Promise<void>;
+  init: (userId: string, channelId: string, chatServer: string,) => Promise<void>;
   isInitialized: () => Promise<Boolean>;
   setupChatListeners: () => Promise<void>;
   sendMessage: (message: string,) => Promise<void>;
